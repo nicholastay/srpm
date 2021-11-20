@@ -3,8 +3,6 @@ Version: 1.8.0
 Release: 1%{?dist}
 URL:     https://github.com/belluzj/fantasque-sans
 
-BuildArch: noarch
-
 %global foundry           belluzj
 %global fontlicense       OFL
 
