@@ -8,6 +8,7 @@ License: GPLv3
 URL:     https://github.com/seebye/ueberzug
 Source0: %{URL}/archive/refs/tags/%{version}.tar.gz
 
+BuildRequires: gcc
 BuildRequires: python3-devel
 BuildRequires: libX11-devel
 BuildRequires: libXext-devel
