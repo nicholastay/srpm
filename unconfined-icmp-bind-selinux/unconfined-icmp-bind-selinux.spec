@@ -43,5 +43,5 @@ fi
 %ghost %verify(not md5 size mode mtime) %{_sharedstatedir}/selinux/%{selinuxtype}/active/modules/200/%{modulename}
 
 %changelog
-* Mon Jan 15 2023 Nicholas Tay <nick@windblume.net>
+* Mon Jan 15 2024 Nicholas Tay <nick@windblume.net>
 - Initial rpm
