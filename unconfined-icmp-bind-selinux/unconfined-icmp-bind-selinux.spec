@@ -9,6 +9,7 @@ Summary: SELinux policy to allow ICMP socket bind in unconfined_t
 License: BSD-2-Clause
 Source0: %{modulename}.te
 
+BuildArch:      noarch
 Requires:       selinux-policy-%{selinuxtype}
 Requires(post): selinux-policy-%{selinuxtype}
 BuildRequires:  selinux-policy-devel
