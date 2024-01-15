@@ -1,0 +1,12 @@
+module unconfined-icmp-bind 1.0;
+
+require {
+        type unconfined_t;
+	type node_t;
+        type port_t;
+        class icmp_socket { name_bind node_bind };
+}
+
+#============= unconfined_t ==============
+allow unconfined_t node_t:icmp_socket node_bind;
+allow unconfined_t port_t:icmp_socket name_bind;
